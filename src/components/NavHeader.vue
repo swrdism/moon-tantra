@@ -17,6 +17,9 @@ export default {
               <router-link class="nav-link active" aria-current="page" to="/">最新消息</router-link>
             </li>
             <li class="nav-item">
+              <router-link class="nav-link" to="/price">價目表</router-link>
+            </li>
+            <li class="nav-item">
               <router-link class="nav-link" to="/tantra">關於譚崔</router-link>
             </li>
             <li class="nav-item">

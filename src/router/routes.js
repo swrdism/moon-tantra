@@ -6,6 +6,12 @@ const routes = [
       component: () => import("@/views/news.vue"),
     },
     {
+      path: "/",
+      name: "price",
+      title: "價目表",  
+      component: () => import("@/views/price.vue"),
+    },
+    {
       path: "/tantra",
       name: "tantra",
       title: "關於譚崔",
