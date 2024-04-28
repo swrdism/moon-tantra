@@ -1,15 +1,12 @@
 <script>
-export default {
-  name: 'navHeader',
-}
 </script>
 
 <template>
   <div class="w-100">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid mx-5"> 
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container"> 
         <a class="navbar-brand" href="#">
-          <img src="../assets/logo.jpeg" alt="" width="100" height="100" class="d-inline-block align-text-top">
+          <img src="../assets/logo.jpeg" alt="" width="100" height="100" class="d-inline-block align-text-top rounded-circle">
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">

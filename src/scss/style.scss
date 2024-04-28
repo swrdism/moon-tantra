@@ -1,1 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
+
+#app {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+p {
+    line-height: 2rem;
+}   

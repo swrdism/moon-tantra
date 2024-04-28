@@ -6,7 +6,7 @@ const routes = [
       component: () => import("@/views/news.vue"),
     },
     {
-      path: "/",
+      path: "/price",
       name: "price",
       title: "價目表",  
       component: () => import("@/views/price.vue"),
@@ -15,13 +15,13 @@ const routes = [
       path: "/tantra",
       name: "tantra",
       title: "關於譚崔",
-      component: () => import("@/views/tantra.vue"),
+      component: () => import("@/views/Tantra.vue"),
     },
     {
       path: "/leader",
       name: "leader",
       title: "課程帶領者",
-      component: () => import("@/views/leader.vue"),
+      component: () => import("@/views/Leader.vue"),
     },
     {
       path: "/services/kasai",
