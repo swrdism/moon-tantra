@@ -3,13 +3,13 @@ const routes = [
       path: "/",
       name: "index",
       title: "最新消息",  
-      component: () => import("@/views/news.vue"),
+      component: () => import("@/views/News.vue"),
     },
     {
       path: "/price",
       name: "price",
       title: "價目表",  
-      component: () => import("@/views/price.vue"),
+      component: () => import("@/views/Price.vue"),
     },
     {
       path: "/tantra",
@@ -27,19 +27,19 @@ const routes = [
       path: "/services/kasai",
       name: "services-kasai",
       title: "龍筋覺知按摩",
-      component: () => import("@/views/services/kasai.vue"),
+      component: () => import("@/views/services/Kasai.vue"),
     },
     {
       path: "/services/kerokan",
       name: "services-kerokan",
       title: "刮痧",
-      component: () => import("@/views/services/kerokan.vue"),
+      component: () => import("@/views/services/Kerokan.vue"),
     },
     {
       path: "/contract",
       name: "contract",
       title: "聯絡資訊",
-      component: () => import("@/views/contract.vue"),
+      component: () => import("@/views/Contract.vue"),
     }
   ];
    
