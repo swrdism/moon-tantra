@@ -27,13 +27,13 @@ const routes = [
       path: "/services/kasai",
       name: "services-kasai",
       title: "龍筋覺知按摩",
-      component: () => import("@/views/services/Kasai.vue"),
+      component: () => import("@/views/services/LongGin.vue"),
     },
     {
       path: "/services/kerokan",
       name: "services-kerokan",
       title: "刮痧",
-      component: () => import("@/views/services/Kerokan.vue"),
+      component: () => import("@/views/services/GuaSha.vue"),
     },
     {
       path: "/contract",

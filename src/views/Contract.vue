@@ -1,7 +1,9 @@
 <script setup>
+import Title from '@/components/Title.vue';
 </script>
 
 <template>
+  <Title msg="聯絡資訊"></Title>
   <div class="d-flex">
     <div class="px-5">
       <iframe
