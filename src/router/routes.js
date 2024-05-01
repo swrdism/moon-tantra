@@ -24,14 +24,14 @@ const routes = [
       component: () => import("@/views/Leader.vue"),
     },
     {
-      path: "/services/kasai",
-      name: "services-kasai",
+      path: "/services/long-gin",
+      name: "services-longGin",
       title: "龍筋覺知按摩",
       component: () => import("@/views/services/LongGin.vue"),
     },
     {
-      path: "/services/kerokan",
-      name: "services-kerokan",
+      path: "/services/gua-sha",
+      name: "services-guaSha",
       title: "刮痧",
       component: () => import("@/views/services/GuaSha.vue"),
     },

@@ -2,7 +2,9 @@
 </script>
 
 <template>
-  news
+  <div>
+    
+  </div>
 </template> 
 
 <style scoped>

@@ -3,31 +3,16 @@ import Title from '@/components/Title.vue';
 </script>
 
 <template>
-
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    <p> 
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
-  </div>
-
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
-  <p>
-    Install
-    <a href="https://github.com/vuejs/language-tools" target="_blank">Volar</a>
-    in your IDE for a better DX
-  </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+  <article class="lh-lg">
+    <Title msg="全人刮痧"></Title>
+    <img src="@/assets/jodo.jpeg" class="img-thumbnail mx-auto d-block my-3 mw-100" width="500">
+    <div class="w-md-50 mx-auto">
+      <article>
+        <p>在台灣多數人認為刮痧是應用在中暑的症狀上，當然刮痧在中暑的效果顯著，但是刮痧的好處遠遠不止於此。</p>
+        <p>身體、情感、能量，有著彼此互相對應的關係，用傳統的說法就是天人感應，身心合一，用現代化的說法就是身心靈的調和。透過刮痧技術，刮痧師運用器材，將身上累積的</p>
+      </article>
+    </div>
+  </article>
 </template>
 
-<style scoped>
-.read-the-docs {
-  color: #888;
-}
-</style>
+<style scoped></style>
